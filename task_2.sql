@@ -19,9 +19,9 @@ CREATE TABLE Books (
 -- Create Customers table
 CREATE TABLE Customers (
     customer_id INT PRIMARY KEY AUTO_INCREMENT,
-    customer_name VARCHAR(255) NOT NULL,
-    email VARCHAR(255) UNIQUE NOT NULL,
-    address VARCHAR(255) NOT NULL
+    customer_name VARCHAR(215) NOT NULL,
+    email VARCHAR(215) UNIQUE NOT NULL,
+    address TEXT NOT NULL
 );
 
 -- Create Orders table
